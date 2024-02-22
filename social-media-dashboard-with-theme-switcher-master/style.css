@@ -81,6 +81,7 @@ h1{
     margin: 20px;
 }
 .p1>p:nth-of-type(1){
+    color: hsl(0, 0%, 100%);
     font-size: 35px;
     font-weight: 800;
 }
@@ -88,6 +89,7 @@ h1{
     text-transform: uppercase;
 }
 .size{
+    color: hsl(0, 0%, 100%);
     font-size: 20px;
     font-weight: 800;
 }
