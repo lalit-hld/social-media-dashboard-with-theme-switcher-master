@@ -38,6 +38,8 @@ body{
     height: 200px;
     background-color: hsl(228, 28%, 20%);
     position: relative;
+    border-radius: 8px;
+    overflow: hidden;
 }
 .overview{
     display: flex;
@@ -58,6 +60,7 @@ body{
     margin: 15px 0;
     background-color: hsl(228, 28%, 20%);
     justify-content: space-around;
+    border-radius: 8px;
 }
 
 h1{
@@ -128,4 +131,21 @@ h1{
     background-color: hsl(348, 97%, 39%);
     position: absolute;
     top: 0;
+}
+
+.up-arrow {
+    background-image: url('images/icon-up.svg');
+}
+
+.down-arrow {
+    background-image: url('images/icon-down.svg');
+}
+
+.indicator-img {
+    width: 8px;
+    height: 4px;
+    margin-right: 4px;
+}
+.gap{
+    margin-right: 5px;
 }
