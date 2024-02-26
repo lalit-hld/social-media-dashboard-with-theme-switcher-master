@@ -1,159 +1,221 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="style.css">
-  <!-- link to flag css -->
-  
-  <title>Frontend Mentor | [Challenge Name Here]</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <!-- link to flag css -->
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body class="Light-Theme">
-  <div class="outer"></div>
-  <div class="box">
-    <div class="toggle">
-      <div class="circle"></div>
+    <title>Frontend Mentor | [Challenge Name Here]</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body class="">
+    <div class="outer"></div>
+    <div class="box">
+
+      <div class="toggleBtn">
+        <div class="circle"></div>
+      </div>
+
+      <h1>Social Media Dashboard</h1>
+      <p>Total Followers: 23,004</p>
+      <div class="dashboard">
+        <div class="dash-box">
+          <div class="inner-facebook"></div>
+          <p>
+            <img
+              class="gap"
+              src="/social-media-dashboard-with-theme-switcher-master/images/icon-facebook.svg"
+              alt="fb-icon"
+            />@nathanf
+          </p>
+          <div class="p1">
+            <p>1987</p>
+            <p>Followers</p>
+          </div>
+          <p><span class="up-arrow indicator-img"></span>12 Today</p>
+        </div>
+        <div class="dash-box">
+          <div class="inner-twitter"></div>
+          <p>
+            <img
+              class="gap"
+              src="/social-media-dashboard-with-theme-switcher-master/images/icon-twitter.svg"
+              alt="twitter-icon"
+            />@nathanf
+          </p>
+          <div class="p1">
+            <p>1044</p>
+            <p>Followers</p>
+          </div>
+          <p><span class="up-arrow indicator-img"></span>99 Today</p>
+        </div>
+        <div class="dash-box">
+          <div class="inner-insta"></div>
+          <p>
+            <img
+              class="gap"
+              src="/social-media-dashboard-with-theme-switcher-master/images/icon-instagram.svg"
+              alt="insta-icon"
+            />@realnathanf
+          </p>
+          <div class="p1">
+            <p>11k</p>
+            <p>Followers</p>
+          </div>
+          <p><span class="up-arrow indicator-img"></span>1099 Today</p>
+        </div>
+        <div class="dash-box">
+          <div class="inner-youtube"></div>
+          <p>
+            <img
+              class="gap"
+              src="/social-media-dashboard-with-theme-switcher-master/images/icon-youtube.svg"
+              alt="youtube-icon"
+            />Nathan F.
+          </p>
+          <div class="p1">
+            <p>8239</p>
+            <p>Subscribers</p>
+          </div>
+          <p><span class="down-arrow indicator-img"></span>144 Today</p>
+        </div>
+      </div>
+      <h1>Overview - Today</h1>
+      <div class="overview">
+        <div class="over-box">
+          <div class="space">
+            <p>Page Views</p>
+            <img
+              src="/social-media-dashboard-with-theme-switcher-master/images/icon-facebook.svg"
+              alt="fb-icon"
+            />
+          </div>
+          <div class="space">
+            <p class="size">87</p>
+            <p><span class="up-arrow indicator-img"></span>3%</p>
+          </div>
+        </div>
+        <div class="over-box">
+          <div class="space">
+            <p>Likes</p>
+            <img
+              src="/social-media-dashboard-with-theme-switcher-master/images/icon-facebook.svg"
+              alt="fb-icon"
+            />
+          </div>
+          <div class="space">
+            <p class="size">52</p>
+            <p><span class="down-arrow indicator-img"></span>2%</p>
+          </div>
+        </div>
+        <div class="over-box">
+          <div class="space">
+            <p>Likes</p>
+            <img
+              src="/social-media-dashboard-with-theme-switcher-master/images/icon-instagram.svg"
+              alt="insta-icon"
+            />
+          </div>
+          <div class="space">
+            <p class="size">5462</p>
+            <p>
+              <span class="up-arrow indicator-img"></span>
+              2257%
+            </p>
+          </div>
+        </div>
+        <div class="over-box">
+          <div class="space">
+            <p>Profile Views</p>
+            <img
+              src="/social-media-dashboard-with-theme-switcher-master/images/icon-instagram.svg"
+              alt="insta-icon"
+            />
+          </div>
+          <div class="space">
+            <p class="size">52k</p>
+            <p><span class="up-arrow indicator-img"></span>1375%</p>
+          </div>
+        </div>
+        <div class="over-box">
+          <div class="space">
+            <p>Retweets</p>
+            <img
+              src="/social-media-dashboard-with-theme-switcher-master/images/icon-twitter.svg"
+              alt="twitter-icon"
+            />
+          </div>
+          <div class="space">
+            <p class="size">117</p>
+            <p><span class="up-arrow indicator-img"></span>303%</p>
+          </div>
+        </div>
+        <div class="over-box">
+          <div class="space">
+            <p>Likes</p>
+            <img
+              src="/social-media-dashboard-with-theme-switcher-master/images/icon-twitter.svg"
+              alt="twitter-icon"
+            />
+          </div>
+          <div class="space">
+            <p class="size">507</p>
+            <p><span class="up-arrow indicator-img"></span>553%</p>
+          </div>
+        </div>
+        <div class="over-box">
+          <div class="space">
+            <p>Likes</p>
+            <img
+              src="/social-media-dashboard-with-theme-switcher-master/images/icon-youtube.svg"
+              alt="youtube-icon"
+            />
+          </div>
+          <div class="space">
+            <p class="size">107</p>
+            <p><span class="down-arrow indicator-img"></span>19%</p>
+          </div>
+        </div>
+        <div class="over-box">
+          <div class="space">
+            <p>Total Views</p>
+            <img
+              src="/social-media-dashboard-with-theme-switcher-master/images/icon-youtube.svg"
+              alt="youtube-icon"
+            />
+          </div>
+          <div class="space">
+            <p class="size">1407</p>
+            <p><span class="down-arrow indicator-img"></span>12%</p>
+          </div>
+        </div>
+      </div>
     </div>
-    <h1>Social Media Dashboard</h1>
-  <p>Total Followers: 23,004</p>
-  <div class="dashboard">
-    <div class="dash-box">
-      <div class="inner-facebook"></div>
-      <p><img class="gap" src="/social-media-dashboard-with-theme-switcher-master/images/icon-facebook.svg" alt="fb-icon">@nathanf</p>
-      <div class="p1">
-        <p>1987</p>
-        <p>Followers</p>  
-      </div>
-      <p><span class="up-arrow indicator-img"></span>12 Today</p>
-    </div>
-    <div class="dash-box">
-      <div class="inner-twitter"></div>
-      <p><img class="gap" src="/social-media-dashboard-with-theme-switcher-master/images/icon-twitter.svg" alt="twitter-icon">@nathanf</p>
-      <div class="p1">
-        <p>1044</p>
-        <p>Followers</p>
-      </div>
-      <p><span class="up-arrow indicator-img"></span>99 Today</p>
-    </div>
-    <div class="dash-box">
-      <div class="inner-insta"></div>
-      <p><img  class="gap" src="/social-media-dashboard-with-theme-switcher-master/images/icon-instagram.svg" alt="insta-icon">@realnathanf</p>
-      <div class="p1">
-        <p>11k</p>
-        <p>Followers</p>
-      </div>
-      <p><span class="up-arrow indicator-img"></span>1099 Today</p>
-    </div>
-    <div class="dash-box">
-      <div class="inner-youtube"></div>
-      <p><img class="gap" src="/social-media-dashboard-with-theme-switcher-master/images/icon-youtube.svg" alt="youtube-icon">Nathan F.</p>
-      <div class="p1">
-        <p>8239</p>
-        <p>Subscribers</p>
-      </div>
-      <p><span class="down-arrow indicator-img"></span>144 Today</p>
-    </div>
-  </div>
-    <h1>Overview - Today</h1>
-  <div class="overview">
-    <div class="over-box">
-      <div class="space">
-        <p>Page Views</p>
-        <img src="/social-media-dashboard-with-theme-switcher-master/images/icon-facebook.svg" alt="fb-icon">
-      </div>
-      <div class="space">
-        <p class="size">87</p>
-        <p><span class="up-arrow indicator-img"></span>3%</p>
-      </div>
-    </div>
-    <div class="over-box">
-      <div class="space">
-        <p>Likes</p>
-        <img src="/social-media-dashboard-with-theme-switcher-master/images/icon-facebook.svg" alt="fb-icon">
-      </div>
-      <div class="space" >
-        <p class="size">52</p>
-        <p><span class="down-arrow indicator-img"></span>2%</p>
-      </div>
-    </div>
-    <div class="over-box">
-      <div class="space">
-        <p>Likes</p>
-        <img src="/social-media-dashboard-with-theme-switcher-master/images/icon-instagram.svg" alt="insta-icon">
-      </div>
-      <div class="space">
-        <p class="size">5462</p>
-        <p>
-          <span class="up-arrow indicator-img"></span>
-          2257%
-        </p>
-      </div>
-    </div>
-    <div class="over-box">
-      <div class="space">
-        <p>Profile Views</p>
-        <img src="/social-media-dashboard-with-theme-switcher-master/images/icon-instagram.svg" alt="insta-icon">
-      </div>
-      <div class="space">
-        <p class="size">52k</p>
-        <p><span class="up-arrow indicator-img"></span>1375%</p>
-      </div>
-    </div>
-    <div class="over-box">
-      <div class="space">
-        <p>Retweets</p>
-        <img src="/social-media-dashboard-with-theme-switcher-master/images/icon-twitter.svg" alt="twitter-icon">
-      </div>
-      <div class="space">
-        <p class="size">117</p>
-        <p><span class="up-arrow indicator-img"></span>303%</p>
-      </div>
-    </div>
-    <div class="over-box">
-      <div class="space">
-        <p>Likes</p>
-        <img src="/social-media-dashboard-with-theme-switcher-master/images/icon-twitter.svg" alt="twitter-icon">
-      </div>
-      <div class="space">
-        <p class="size">507</p>
-        <p><span class="up-arrow indicator-img"></span>553%</p>
-      </div>
-    </div>
-    <div class="over-box">
-      <div class="space">
-        <p>Likes</p>
-        <img src="/social-media-dashboard-with-theme-switcher-master/images/icon-youtube.svg" alt="youtube-icon">
-      </div>
-      <div class="space">
-        <p class="size">107</p>
-        <p><span class="down-arrow indicator-img"></span>19%</p>
-      </div>
-    </div>
-    <div class="over-box">
-      <div class="space">
-        <p>Total Views</p>
-        <img src="/social-media-dashboard-with-theme-switcher-master/images/icon-youtube.svg" alt="youtube-icon">
-      </div>
-      <div class="space">
-        <p class="size">1407</p>
-        <p><span class="down-arrow indicator-img"></span>12%</p>
-      </div>
-    </div>
-  </div>
-  </div>
-<!--   
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div> -->
-  <script src="script.js"></script>
-</body>
+    <script>
+      let savedTheme = localStorage.getItem("theme");
+      let body = document.querySelector("body");
+      body.classList.add(savedTheme);
+    </script>
+
+    <script src="script.js"></script>
+  </body>
 </html>
